@@ -8,7 +8,7 @@ env:
 jobs:
   linux:
     name: Linux
-    if: false # disabled: need to package libdbusmenu-qtilities and libstatusnotifieritem-qt, cdemu for Ubuntu?
+    # if: false # disabled: need to package libdbusmenu-qtilities and libstatusnotifieritem-qt, cdemu for Ubuntu?
     runs-on: ubuntu-latest
     strategy:
       matrix:
