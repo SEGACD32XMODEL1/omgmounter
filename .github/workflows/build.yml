@@ -1,13 +1,5 @@
 name: Build
-on:
-  push:
-    branches:
-    - '*'
-    tags:
-    - '[0-9]*'
-  pull_request:
-    branches:
-    - '*'
+on: workflow_dispatch
 defaults:
   run:
     shell: bash
